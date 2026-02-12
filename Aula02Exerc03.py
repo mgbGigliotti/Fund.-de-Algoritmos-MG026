@@ -1,0 +1,6 @@
+dia = int(input("Digite a quantidade de dias: "))
+hora = int(input("Digite a quantidade de horas: "))
+min = int(input("Digite a quantidade de minutos: "))
+seg = int(input("Digite a quantidade de segundos: "))
+tempototal = (dia*86400) + (hora*3600) + (min*60) + (seg*1)
+print("O tempo total é de: ",tempototal)
